@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales Team Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="dashboard-header">
+    <h1>Grocery Analytics Dashboard</h1>
+  </div>
+
+  <div class="button-group">
+    <!-- Hidden file input -->
+    <input type="file" id="fileInput" style="display: none;" />
+    <button class="main-button" onclick="triggerUpload()">Upload File</button>
+  </div>
+
+  <div class="feature-buttons">
+    <button onclick="displayDemandForecasting()">Demand Forecasting</button>
+    <button onclick="displayCustomerSegmentation()">Customer Segmentation</button>
+    <button onclick="displayProductCategorization()">Product Categorization</button>
+    <button onclick="displaySalesPrediction()">Sales Prediction</button>
+  </div>
+
+  <div class="output-box" id="output-box"></div>
+  <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.18.3/plotly.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Flask
+Pandas
+Scikit-learn
+Plotly
+Openpyxl
+Numpy
+Jinja2
+matplotlib
+networkx
+mlxtend

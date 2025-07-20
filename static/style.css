@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .dashboard-header {
+    background-color: #009c08;
+    color: white;
+    padding: 20px 10px;
+    width:100%;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .button-group {
+    margin: 40px 0;
+  }
+  
+  .main-button {
+    background-color: #009c08;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feature-buttons {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  
+  .feature-buttons button {
+    background-color: #009c08;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .output-box {
+    border: 3px solid #009c08;
+    margin: 30px auto;
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+  }
