@@ -15,6 +15,5 @@ Backend: Python, Flask
 Machine Learning: scikit-learn, pandas, NumPy,Linear Regression, K-means clustering.
 Visualization: Plotly
 Frontend: HTML, CSS, JavaScript
-Frontend: HTML, CSS, JavaScript
 File Handling: OS
 
