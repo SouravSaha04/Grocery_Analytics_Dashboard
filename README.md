@@ -1,4 +1,4 @@
-# ML-Driven Grocery Analytic Dashboard Web Application
+# ML-Driven Grocery Analytics Dashboard Web Application
 
 This application transforms customer's raw transactional data into actionable business insights. By uploading monthly Excel sheets of purchase transactions, owner can visualize product categorization, customer segmentation (via K-Means Clustering), and future sales trends (using Linear Regression) through an interactive web dashboard.
 
